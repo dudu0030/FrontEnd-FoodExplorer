@@ -9,7 +9,8 @@ export default createGlobalStyle`
 
     body {
         background-color: ${({ theme }) => theme.COLORS.BACKGROUND};
-        color: ${({ theme }) => theme.COLORS.LIGHT_300};
+        color: ${({ theme }) => theme.COLORS.LIGHT_100};
+        font-family: "Roboto", sans-serif;
     }
 
     button {
