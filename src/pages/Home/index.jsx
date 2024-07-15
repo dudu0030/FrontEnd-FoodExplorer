@@ -1,17 +1,22 @@
-import { Container, Cards } from './styles';
+import { Container, Cards, Content } from './styles';
 import { Header } from '../../components/Header';
-import { Button } from '../../components/Button';
 import { Section } from '../../components/Section';
 import { Footer } from '../../components/Footer';
 
 import { PiPencilSimpleLight } from "react-icons/pi";
 
-export function Details() {
+export function Home() {
 
   return (
     <Container>
       <Header />
 
+      <main>
+        <Content>
+          <div>
+            <h1>Sabores inigualáveis</h1>
+            <p>Sinta o cuidado do preparo com ingredientes selecionados</p>
+          </div>
       <Section title="Refeições">
         <Cards>
         <PiPencilSimpleLight />
@@ -90,9 +95,9 @@ export function Details() {
         </Cards>
 
       </Section>
-
-      <Button title="incluir" />
+        </Content>
+      </main>
       <Footer />
     </Container>
-  )
+  );
 }
