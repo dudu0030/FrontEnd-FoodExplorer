@@ -19,7 +19,7 @@ export function Header() {
             <Search>
                     <div>
                         <TfiSearch />
-                        <input class="search-input" type="text" placeholder="Busque por pratos ou ingredientes" />
+                        <input className="search-input" type="text" placeholder="Busque por pratos ou ingredientes" />
                     </div>
                 </Search>
             <NewDish>

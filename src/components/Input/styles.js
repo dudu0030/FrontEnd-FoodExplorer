@@ -12,10 +12,11 @@ export const Container = styled.div`
         border-radius: 5px;
 
         padding: 12px;
-        background: transparent;
-        border: 1px solid #FFFFFF;
+        background-color: #0D1D25;
+        border: none;
+        color: #FFFFFF;
         
-        &:placeholder {
+        &::placeholder {
             font-size: 16px;
             font-weight: 400;
             font-family: "Roboto", sans-serif;
