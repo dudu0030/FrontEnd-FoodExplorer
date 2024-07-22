@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.header`
     grid-area: header;
@@ -68,7 +69,10 @@ export const Search = styled.div`
      
 `;
 
-export const NewDish = styled.button`
+export const NewDish = styled(Link)`
+    
+    text-decoration: none;
+    text-align: center;
     margin: 24px 32px;
     width: 216px;
     height: 48px;

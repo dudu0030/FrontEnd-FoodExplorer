@@ -22,7 +22,7 @@ export function Header() {
                         <input className="search-input" type="text" placeholder="Busque por pratos ou ingredientes" />
                     </div>
                 </Search>
-            <NewDish>
+            <NewDish to="/adddish">
                 Novo prato
             </NewDish>
             <Logout>

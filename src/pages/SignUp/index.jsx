@@ -1,5 +1,6 @@
 import { Container, Logo, Form } from "./styles";
 import { BiSolidPolygon } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
@@ -34,9 +35,9 @@ export function SignUp() {
 
                 <Button title="Entrar" />
 
-                <a href="#">
+                <Link to="/">
                     Já tenho uma conta
-                </a>
+                </Link>
             </Form>
         </Container>
     );

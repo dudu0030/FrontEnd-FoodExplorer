@@ -2,6 +2,7 @@ import { Container, Form, UploadButtonWrapper, UploadButton, FileInput } from '.
 
 import { MdOutlineFileUpload } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
@@ -15,10 +16,10 @@ export function AddDish() {
             <Header />
             <main>
                 <Form>
-                    <a href="/">
+                    <Link to="/">
                     <IoIosArrowBack />
                     voltar
-                    </a>
+                    </Link>
                     <header>
                         <h1>Adicionar prato</h1>
                     </header>
