@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.footer`
 
-    height: 77px;
+    height: 4.81rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 1.5rem;
     margin-top: auto;
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
@@ -17,9 +17,9 @@ export const Logo = styled.div`
     align-items: center;
 
     > svg {
-        width: 30px;
-        height: 30px;
-        margin-left: 123px;
+        width: 1.87rem;
+        height: 1.87rem;
+        margin-left: 7.68rem;
         background: none;
         color: #4D585E;
     }
@@ -41,7 +41,7 @@ export const Sub = styled.div`
     align-items: center;
 
     > div {
-        margin-right: 123px;
+        margin-right: 7.68rem;
     }
 
         span {

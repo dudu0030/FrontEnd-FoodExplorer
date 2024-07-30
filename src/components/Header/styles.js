@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 export const Container = styled.header`
     grid-area: header;
 
-    height: 104px;
+    height: 6.5rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 80px;
+    padding: 0 5rem;
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
 `;
@@ -18,9 +18,9 @@ export const Logo = styled.div`
     align-items: center;
 
     > svg {
-        width: 30px;
-        height: 30px;
-        margin-left: 123px;
+        width: 1.87rem;
+        height: 1.87rem;
+        margin-left: 7.68rem;
         background: none;
         color: #065E7C;
     }
@@ -40,14 +40,14 @@ export const Logo = styled.div`
             font-weight: 400;
             font-family: "Roboto", sans-serif;
             color: #82F3FF;
-            margin-left: 104px;
+            margin-left: 6.5rem;
         }
     }
 `;
 
 export const Search = styled.div`
-     width: 581px;
-     height: 48px;
+     width: 36.31rem;
+     height: 3rem;
      background-color: #0D1D25;
      margin: 24px 32px;
 
@@ -59,7 +59,7 @@ export const Search = styled.div`
         background: none;
         border: none;
         margin: 16px 14px;
-        width: 254px;
+        width: 15.87rem;
         
         font-size: 16px;
         color: #7C7C8A;
@@ -74,8 +74,8 @@ export const NewDish = styled(Link)`
     text-decoration: none;
     text-align: center;
     margin: 24px 32px;
-    width: 216px;
-    height: 48px;
+    width: 13.5rem;
+    height: 3rem;
     padding: 12px 32px;
     background: ${({ theme }) => theme.COLORS.BUTTON};
     border: none;
@@ -94,7 +94,7 @@ export const Logout = styled.button`
         color: ${({ theme }) => theme.COLORS.LIGHT_100};
         width: 32px;
         height: 32px;
-        margin-right: 123px;
+        margin-right: 7.68rem;
     }
 `;
 

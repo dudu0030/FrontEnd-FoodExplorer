@@ -8,10 +8,10 @@ export const Container = styled.div`
 `;
 
 export const Form = styled.form`
-    padding: 64px;
-    width: 476px;
-    height: 540px;
-    margin-top: 142px;
+    padding: 4rem;
+    width: 29.75rem;
+    height: 33.75rem;
+    margin-top: 8.87rem;
 
     display: flex;
     flex-direction: column;
@@ -27,11 +27,11 @@ export const Form = styled.form`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
 
     > h2 {
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 500;
         font-family: "Poppins", sans-serif;
         color: ${({ theme }) => theme.COLORS.LIGHT_100};
-        margin: 32px 64px;
+        margin: 2rem 4rem;
     }
 
     > span {
@@ -40,7 +40,7 @@ export const Form = styled.form`
         font-family: "Roboto", sans-serif;
         color: ${({ theme }) => theme.COLORS.LIGHT_400};
         align-self: flex-start;
-        margin-bottom: 8px;
+        margin-bottom: 0.5rem;
     }
 
     > a {
@@ -57,19 +57,19 @@ export const Logo = styled.div`
     align-items: center;
 
     > svg {
-        width: 49px;
-        height: 47px;
-        margin-left: 123px;
+        width: 3.06rem;
+        height: 2.93rem;
+        margin-left: 7.68rem;
         background: none;
         color: #065E7C;
-        margin-left: 153px;
+        margin-left: 9.56rem;
     }
 
     > div {
-        margin-left: 19px;
+        margin-left: 1.18rem;
         
         span {
-            font-size: 42px;
+            font-size: 2.62rem;
             font-weight: 700;
             font-family: "Roboto", sans-serif;
             color: ${({ theme }) => theme.COLORS.LIGHT_100};

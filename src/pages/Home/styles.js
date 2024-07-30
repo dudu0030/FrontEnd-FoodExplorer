@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { DEVICE_BREAKPOINTS } from "../../styles/breakpoints";
 
 export const Container = styled.div`
     background: ${({ theme }) => theme.COLORS.MAIN_BACK};
@@ -10,6 +11,11 @@ export const Container = styled.div`
     grid-template-areas: 
     "header"
     "content";
+
+    @media (max-width: ${DEVICE_BREAKPOINTS.MD}) {
+        grid-template-columns: auto;
+        grid-template-rows: auto 1fr;
+    }
 
     > main {
         grid-area: content;

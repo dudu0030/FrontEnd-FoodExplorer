@@ -18,14 +18,14 @@ export const Container = styled.div`
 
 export const Form = styled.form`
     display: grid;
-    margin: 40px 123px;
+    margin: 2.5rem 7.68rem;
     gap: 32px;
     
     > a {
         display: flex;
         align-items: center;
         text-decoration: none;
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem;
 
         color: #E1E1E6;
         font-size: 24px;
@@ -33,13 +33,13 @@ export const Form = styled.form`
         font-family: "Poppins", sans-serif;
 
         svg {
-            width: 32px;
-            height: 32px;
+            width: 2rem;
+            height: 2rem;
         }
     }
 
     > header {
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
         color: #E1E1E6;
         font-size: 20px;
         font-weight: 400;
@@ -54,34 +54,34 @@ export const Form = styled.form`
     }
 
     #name {
-        width: 463px;
-        height: 48px;
+        width: 28.93rem;
+        height: 3rem;
     }
 
     #ingredients {
-        width: 837px;
-        height: 48px;
+        width: 52.31rem;
+        height: 3rem;
     }
 
     #price {
-        width: 251px;
-        height: 48px;
+        width: 15.68rem;
+        height: 3rem;
     }
 
     > select {
-        width: 364px;
-        height: 48px;
-        border-radius: 5px;
+        width: 22.75rem;
+        height: 3rem;
+        border-radius: 0.31rem;
 
-        padding: 16px;
+        padding: 1rem;
         background-color: #0D1D25;
         border: none;
         color: #FFFFFF;
     }
 
     > button {
-        width: 172px;
-        height: 48px;
+        width: 10.75rem;
+        height: 3rem;
         margin-left: 100vh;
     }
 `;
@@ -93,11 +93,11 @@ export const UploadButtonWrapper = styled.div`
 export const UploadButton = styled.button`
     display: flex;
     align-items: center;
-    padding: 12px 32px;
+    padding: 0.75rem 2rem;
     background-color: #0D1D25;
     color: #FFFFFF;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     cursor: pointer;
 
     font-size: 14px;
@@ -105,9 +105,9 @@ export const UploadButton = styled.button`
     font-family: "Poppins", sans-serif;
 
     > svg {
-        width: 24px;
-        height: 24px;
-        margin-right: 8px;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.5rem;
     }
 `;
 

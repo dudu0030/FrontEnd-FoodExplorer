@@ -7,7 +7,8 @@ export const Container = styled.span`
     color: ${({ theme }) => theme.COLORS.LIGTH_100};
     background-color: #192227;
 
-    width: 66px;
+    text-align: center;
+    width: 85px;
     height: 32px;
     padding: 4px 8px;
     gap: 8px;
