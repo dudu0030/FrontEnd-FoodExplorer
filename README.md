@@ -14,6 +14,7 @@
 ## Uso
     
     Para rodar a aplicação localmente use o comando "npm run dev", abra o endereço que aparecer no terminal no seu navegador.
+    Acesse o site por aqui: https://f00dexpl0rer.netlify.app/
 
 ## Estrutura de Pastas
 
